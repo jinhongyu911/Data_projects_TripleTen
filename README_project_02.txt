@@ -33,4 +33,7 @@ Taks Performed
 * Plot the feature importance graph
 
 Conclusions
-The feature importance analysis reveals that 'duration', 'monthlycharges' and 'totalcharges' emerge as the most influential factors affecting churn rate. Notably, there appears to be a significant increase in churn within the first 1-1.5 years of customer enrollment (this was explored more deeply in the first EDA part of the final project). To mitigate this churn propensity during the early years, a strategic approach involves offering promotional rates to newly acquired customers during this critical period. By incentivizing loyalty through preferential pricing during the introductory phase, customers are more likely to develop brand familiarity and loyalty, thereby fostering a decline in churn rates.
+The feature importance analysis reveals that 'duration', 'monthlycharges' and 'totalcharges' emerge as the most influential factors affecting churn rate.
+Notably, there appears to be a significant increase in churn within the first 1-1.5 years of customer enrollment (this was explored more deeply in the first EDA part of the final project).
+To mitigate this churn propensity during the early years, a strategic approach involves offering promotional rates to newly acquired customers during this critical period.
+By incentivizing loyalty through preferential pricing during the introductory phase, customers are more likely to develop brand familiarity and loyalty, thereby fostering a decline in churn rates.
