@@ -20,9 +20,13 @@ Taks Performed
 
 Conclusions
 1. The model underwent a total of 20 epochs of training, with each epoch completing in 35 seconds on a GPU platform, indicating efficient processing.
-2. Although the train_loss steadily decreased throughout the epochs, the val_loss began to plateau and even increase after the 10th epoch. This divergence suggests that the model started to overfit the training data.
+2. Although the train_loss steadily decreased throughout the epochs, the val_loss began to plateau and even increase after the 10th epoch.
+   This divergence suggests that the model started to overfit the training data.
 3. To address this overfitting, it's advisable to either reduce the number of epochs during training or implement early stopping techniques to prevent the model from memorizing the training data.
-4. The primary objective of this project is to develop a model capable of accurately verifying individuals' ages to prevent the sale of alcohol to minors. However, based on the observed train_mae and val_mae, it appears that the model's accuracy may not be sufficient to reliably achieve this goal.
+4. The primary objective of this project is to develop a model capable of accurately verifying individuals' ages to prevent the sale of alcohol to minors.
+   However, based on the observed train_mae and val_mae, it appears that the model's accuracy may not be sufficient to reliably achieve this goal.
 5. Given the limitations in accuracy, it may be necessary to train a different model capable of achieving a lower MAE to mitigate the risk of unintentionally selling alcohol to minors.
-6. Alternatively, a classification model could be developed to categorize individuals into three age groups: [<10], [10-30], and [>30]. In cases where a customer falls into the middle category, their age could be verified by a human evaluator using their ID card.  
-7. Conversely, a revised project objective could focus on implementing a model for scanning and detecting the date of birth on individuals' ID cards as a means of accurately determining their age. This approach could provide a more reliable means of age verification, potentially enhancing the effectiveness of the model in real-world scenarios.
+6. Alternatively, a classification model could be developed to categorize individuals into three age groups: [<10], [10-30], and [>30].
+   In cases where a customer falls into the middle category, their age could be verified by a human evaluator using their ID card.  
+7. Conversely, a revised project objective could focus on implementing a model for scanning and detecting the date of birth on individuals' ID cards as a means of accurately determining their age.
+   This approach could provide a more reliable means of age verification, potentially enhancing the effectiveness of the model in real-world scenarios.
