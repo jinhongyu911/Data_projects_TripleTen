@@ -4,7 +4,6 @@ Project Description
 Description: The telecom operator Interconnect would like to forecast churn of their users.
 Business Problem Statement: The company wants to forecast which users are planning to leave.
 Business Value: To ensure loyalty, those who are planning to leave, will be offered with promotional codes and special plan options.
-Goal: Analyze the datasets and advise on which of the plans brings in more revenue in order to adjust the advertising budget.
 
 Taks Performed
 1. Load necessary packages and datasets
